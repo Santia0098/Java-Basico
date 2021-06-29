@@ -1,0 +1,30 @@
+EXCERCISE 1
+	
+Write java -version
+
+In my laptop i had java 11.
+
+To do the changes we need write in the console set JAVA_HOME=C:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre
+
+Then we need write set PATH=%JAVA_HOME%\bin;%PATH%
+
+review the version again and now we have java 8
+
+
+-----------------------------------------------------------------
+
+If i need return to latest version i could write again the command with java 11 in the route
+
+set JAVA_HOME=C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot
+
+AND 
+
+set PATH=%JAVA_HOME%\bin;%PATH%
+----------------------------------------------------------------
+
+EXCERCISE 2
+
+I need to execute jshell, i need to write this command to open the shell.
+
+Then i write the Java line to show Hello world. The line is 
+System.out.println("Hello World");

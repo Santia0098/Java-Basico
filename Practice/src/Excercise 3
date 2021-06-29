@@ -1,0 +1,20 @@
+How configure JAVA 9 in our machine and create a program in this version
+
+    STEPS:
+        1: We need to install JDK 9, you can to visit the next page: https://adoptopenjdk.net/releases.html?variant=openjdk9&jvmVariant=hotspot
+           and select OpenJDK 9.
+
+        2: We can open IntelliJ IDEA and create a new project.
+
+        3: Then we must select File -> Project Structure -> Artifacts -> Button Plus -> Add JAR -> From modules with dependencies
+           -> Select class with main method -> Apply -> OK.
+
+        4: Select Build -> Build Artifacts -> Build.
+
+        5: Now, in command console change the Java version and we can run our project.
+
+
+    OS:
+        * Windows
+        * MAC OS or similar Operative Systems.
+        * Is the same installation
